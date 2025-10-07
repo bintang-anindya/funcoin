@@ -76,11 +76,17 @@ const App = () => {
             href="https://t.me/+DIVkNAGEB9RjMWM1"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-8 sm:mt-10 inline-block px-8 sm:px-10 py-3 sm:py-4 rounded-full bg-gradient-to-r from-gray-700 to-black text-white font-semibold text-sm sm:text-base hover:scale-105 transition-transform shadow-lg"
+            className="relative mt-8 sm:mt-10 inline-block px-10 sm:px-12 py-3.5 sm:py-4 rounded-full font-orbitron text-white font-semibold text-sm sm:text-base shadow-lg
+                      bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900
+                      hover:from-gray-600 hover:via-gray-500 hover:to-gray-700
+                      transition-all duration-300
+                      hover:shadow-[0_0_25px_rgba(255,255,255,0.25)]
+                      animate-[pulse_3s_ease-in-out_infinite]"
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
           >
-            Join the Revolution
+            <span className="relative z-10">Join the Revolution</span>
+            <span className="absolute inset-0 rounded-full bg-gradient-to-r from-white/10 via-transparent to-white/10 blur-md opacity-40"></span>
           </motion.a>
         </section>
 
