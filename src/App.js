@@ -116,7 +116,7 @@ const App = () => {
       </section>
 
       {/* ====== FOOTER ====== */}
-      <footer className="py-8 sm:py-10 text-center text-gray-500 bg-gray-900/70 border-t border-gray-800 text-sm sm:text-base px-2">
+      <footer className="py-4 sm:py-5 text-center text-gray-500 bg-gray-900/60 border-t border-gray-800 text-xs sm:text-sm tracking-wide backdrop-blur-sm">
         <p>
           © 2025 <span className="text-white">Grok Singularity</span> — Built
           for Fun, Styled for the Future.
