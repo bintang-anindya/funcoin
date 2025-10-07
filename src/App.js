@@ -7,7 +7,7 @@ const App = () => {
       {/* ====== NAVBAR ====== */}
       <nav className="flex flex-wrap justify-between items-center px-6 sm:px-10 py-5 bg-gray-900/70 backdrop-blur-md sticky top-0 z-50 shadow-md">
         <h1 className="text-xl sm:text-2xl font-orbitron text-white tracking-wider">
-          GROK SINGULARITY
+          GROK JEMBOT
         </h1>
         <div className="flex flex-wrap justify-center sm:justify-end space-x-4 sm:space-x-8 text-gray-300 text-xs sm:text-sm font-medium mt-3 sm:mt-0">
           <a href="#video" className="hover:text-white transition-colors">
