@@ -118,7 +118,7 @@ const App = () => {
       {/* ====== FOOTER ====== */}
       <footer className="py-8 sm:py-10 text-center text-gray-500 bg-gray-900/70 border-t border-gray-800 text-sm sm:text-base px-2">
         <p>
-          © 2025 <span className="text-white">GROK SINGULARITY</span> — Built
+          © 2025 <span className="text-white">Grok Singularity</span> — Built
           for Fun, Styled for the Future.
         </p>
       </footer>
