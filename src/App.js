@@ -72,13 +72,16 @@ const App = () => {
             overnight!
           </motion.p>
 
-          <motion.button
-            className="mt-8 sm:mt-10 px-8 sm:px-10 py-3 sm:py-4 rounded-full bg-gradient-to-r from-gray-700 to-black text-white font-semibold text-sm sm:text-base hover:scale-105 transition-transform shadow-lg"
+          <motion.a
+            href="https://t.me/+DIVkNAGEB9RjMWM1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 sm:mt-10 inline-block px-8 sm:px-10 py-3 sm:py-4 rounded-full bg-gradient-to-r from-gray-700 to-black text-white font-semibold text-sm sm:text-base hover:scale-105 transition-transform shadow-lg"
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
           >
             Join the Revolution
-          </motion.button>
+          </motion.a>
         </section>
 
         {/* ====== FEATURES SECTION ====== */}
